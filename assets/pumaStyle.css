@@ -1,0 +1,284 @@
+* {
+    overflow-x: hidden;
+ 
+}
+header{
+    height: fit-content;
+    
+}
+
+header p {
+    background-color: rgba(174, 148, 109, 255);
+    height: fit-content;
+    
+}
+
+.img-logo{
+    width: 50px;
+    height: 40px;
+}
+.menuNav {
+    height: fit-content;
+}
+
+.search{
+    background-color: rgba(24, 24, 24, 255);
+    border-radius: 0;
+
+}
+main{
+min-height: 60vh;
+
+}
+
+.contenedor {
+    background-image: url(./imgMain1.png);   
+    height: 45VH; 
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.boton{
+    font-size: 0.8rem;
+    margin: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0ch;
+}
+.imgMain {
+    width: 100vw;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.contenedor2 {
+    
+    height: 80vh;
+}
+
+.box1 {
+    width: 55vw;
+    background-color: rgba(201, 192, 183, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+}
+
+.box2 {
+    width: 65vw;
+    background-image: url(./imgMain2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+}
+
+.boton2 {
+    font-size: 0.8rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0ch;
+    width: fit-content;
+    background-color: black !important;
+
+}
+
+.carrusel {
+    height: 80vh;
+}
+
+.imgCarrusel {
+    height: 80vh;
+    object-fit: contain;
+    
+}
+
+
+
+.container3 {
+    background-image: url(./imgMain3.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+  
+}
+
+.textoH2{
+    font-size: 3rem;
+    margin-right: 4rem;
+    overflow-y: hidden;
+}
+
+.textoH6{
+    overflow-y: hidden;
+
+    margin-right: 5rem;
+}
+
+.boton3 { 
+    transform: translateX(-20rem);
+    margin-top: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+    border: 0ch;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.boton33 { 
+    
+    font-size: 0.8rem;
+    font-size: .8rem;
+}
+
+.boton4 { 
+    transform: translate(-6rem, -2.7rem);
+    margin-top: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+    border: 0ch;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.boton44 { 
+    
+    font-size: 0.8rem;
+    font-size: .8rem;
+}
+
+.container4 {
+    background-image: url(./imgMain4.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+
+    
+}
+.container444 {
+    transform: translate(150px,70px);
+    
+}
+
+.textoH2_2{
+    font-size: 3rem;
+    margin-right: 4rem;
+    
+}
+
+.boton5 {
+
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+    border: 0;
+    margin: 4px;
+
+}
+
+footer {
+    width: 100vw;
+    height: fit-content;
+    background-color: rgba(24, 24, 24, 255);
+    padding-top: 5rem;
+}
+
+.linea {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 2px;
+    padding: 0;
+    margin: 2px auto 0 auto;
+    flex-flow: nowrap;
+
+  }
+
+  .linea2 {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    height: 2px;
+    padding: 0;
+    margin: 2px auto 0 auto;
+    flex-flow: nowrap;
+
+  }
+
+li {
+    list-style: none;
+    margin: 1px;
+
+    
+}
+
+.lista1{
+    width: fit-content;
+    transform: translateX(-30px);
+}
+
+.lista2{
+    width: fit-content;
+    transform: translateX(-30px);
+}
+
+
+.hoverLista:hover {
+    font-weight: bold;
+}
+
+.dataFiscal {
+    width: 80px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.email {
+    width: 25vw;
+    background-color:rgba(24, 24, 24, 255);
+    border: solid 0.1px white;
+    padding: 10px;
+    
+}
+
+.box6 {
+    
+    margin: 80px;
+}
+
+.iconosMedia {
+    
+    background-color: white;
+}
+
+.textoFooter {
+    font-size: .8rem;
+    
+}
+
+.footerBottom {
+    height: 15vh;
+}
+
+.argInp{
+    height: 10vh;
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+.carousel-control-next-icon{background-image: url(./flechaDer.png);}
+.carousel-control-prev-icon{background-image: url(./flechaIzq.png);}
